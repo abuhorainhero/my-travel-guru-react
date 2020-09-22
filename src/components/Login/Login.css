@@ -1,0 +1,15 @@
+.form-box {
+    border: 1px solid gray;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.button button{
+    width: 500px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}

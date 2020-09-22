@@ -1,0 +1,13 @@
+nav img {
+    height: 40px;
+    width: 60px;
+}
+nav {
+    line-height: 20%;
+}
+.header-right p{
+    margin-right:8px;
+    font-Size:13px;
+    font-weight:bold;
+    cursor:pointer
+}
