@@ -17,8 +17,14 @@
     
 }
 .backgroundImage-3{
-    background: url('blob:https://imgur.com/f54bbdba-189f-460a-87d8-01f2c469af55');
+    background: linear-gradient(rgba(255, 255, 255, 0.163), rgba(255, 255, 255, 0.285)), url('blob:https://imgur.com/f54bbdba-189f-460a-87d8-01f2c469af55');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+    background-clip: border-box;
 }
 .btn-size{
-    
+    width: 200px;
+    height: 300px;
 }

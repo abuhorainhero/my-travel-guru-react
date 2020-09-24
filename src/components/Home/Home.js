@@ -4,6 +4,7 @@ import { PlaceContext } from '../../App';
 import data from '../../FackData/FackDataPlace';
 import Navbar from '../Navbar/Navbar';
 import './Home.css';
+import img3 from "../../Image/sundorbon.png"
 
 const Home = () => {
     const [place, setPlace] = useContext(PlaceContext);
@@ -27,23 +28,23 @@ const Home = () => {
                 </div>
 
                 <div className="place-info ml-5">
-                    <button onClick={() => handlePlace(0)}>
+                    <button className='btn-size' onClick={() => handlePlace(0)}>
                         Cox's Bazar
                     </button>
                 </div>
 
                 <div className="place-info ml-2">
-                    <button className='' onClick={() => handlePlace(1)}>
+                    <button className='btn-size' onClick={() => handlePlace(1)}>
                         sreemangal
                     </button>
                 </div>
 
                 <div className="place-info ml-2">
-                    <button className='backgroundImage-3' onClick={() => handlePlace(2)}>
+                    <button  className='btn-size' onClick={() => handlePlace(2)}>
                         sundorbon
                     </button>
                 </div>
-
+                
             </div>
         </div>
     );
