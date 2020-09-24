@@ -11,3 +11,7 @@ nav {
     font-weight:bold;
     cursor:pointer
 }
+.link-styles {
+    text-decoration: none;
+    color: white;
+}

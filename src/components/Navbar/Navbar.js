@@ -6,7 +6,7 @@ import './Navbar.css';
 const Navbar = () => {
     const [loggedInUser, setLoggedInUser] = useContext(PlaceContext)
     return (
-        <div >
+        <div className='bg-info'>
             <nav className="navbar navbar-expand-lg d-flex justify-content-between">
 
                 <Link to="/" className="ml-5">
@@ -19,24 +19,24 @@ const Navbar = () => {
                     }
                 </Link>
 
-                <Link to="/news" className="">
+                <Link to="/" className="link-styles">
                     <h6>News</h6>
                 </Link>
 
-                <Link to="/destination" className="">
+                <Link to="/" className="link-styles">
                     <h6>Destination</h6>
                 </Link>
 
-                <Link to="/Blog" className="">
+                <Link to="/" className="link-styles">
                     <h6>blog</h6>
                 </Link>
 
-                <Link to="/contact" className="">
-                    <h6>Contact</h6>
+                <Link to="/" className="link-styles" >
+                    <h6 >Contact</h6>
                 </Link>
 
                 {
-                    loggedInUser.email ? <Link to="/" className="mr-5">{loggedInUser.name}</Link> : 
+                    loggedInUser.email ? <Link to="/" className="link-styles mr-5">{loggedInUser.name}</Link> : 
                     <Link to="/login" className=" mr-5"> <button className="btn btn-warning">Login</button></Link>
                 }
 

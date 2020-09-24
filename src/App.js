@@ -9,6 +9,7 @@ import data from './FackData/FackDataPlace';
 import TravelPlace from './components/TravelPlace/TravelPlace';
 import Login from './components/Login/Login';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Navbar from './components/Navbar/Navbar';
 
 export const PlaceContext = createContext();
 

@@ -4,3 +4,21 @@
 .place-info{
     width:20%;
 }
+.backgroundImage{
+    background: linear-gradient(rgba(255, 255, 255, 0.639), rgba(255, 255, 255, 0.524)), url('https://i.ibb.co/0hcz2xt/Rectangle-1.png?fbclid=IwAR1sIpKrkbp2oOvkDKUM_U_fom1o2wU1Rw8MQ1f6vnJ1AFC25VTjnQcYjGg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-clip: border-box;
+    /* -webkit-filter: brightness(0.8);
+    filter: brightness(0.8); */
+    
+}
+.backgroundImage-3{
+    background: url('blob:https://imgur.com/f54bbdba-189f-460a-87d8-01f2c469af55');
+}
+.btn-size{
+    
+}

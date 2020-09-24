@@ -9,7 +9,7 @@ const PlaceDetails = () => {
     const [place, setPlace] = useContext(PlaceContext);
 
     return (
-        <div>
+        <div className='backgroundImage'>
             <Navbar />
 
             <div className="mt-5 d-flex justify-content-between">

@@ -13,13 +13,13 @@ const Home = () => {
       };
 
     return (
-        <div>
+        <div className='backgroundImage'>
             <Navbar />
 
             <div className="d-flex mt-5">
                 
-                <div className="info-container ml-5">
-                    <h3>{place.place}</h3>
+                <div className="info-container ml-5 ">
+                    <h1>{place.place}</h1>
                     <p>{place.description}</p>
                     <Link to={"/place/"+place.place}>
                         <button className="btn btn-warning">Booking</button>
@@ -33,13 +33,13 @@ const Home = () => {
                 </div>
 
                 <div className="place-info ml-2">
-                    <button onClick={() => handlePlace(1)}>
+                    <button className='' onClick={() => handlePlace(1)}>
                         sreemangal
                     </button>
                 </div>
 
                 <div className="place-info ml-2">
-                    <button onClick={() => handlePlace(2)}>
+                    <button className='backgroundImage-3' onClick={() => handlePlace(2)}>
                         sundorbon
                     </button>
                 </div>
