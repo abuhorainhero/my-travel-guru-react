@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+<
+* This application is a traveling application. It is helpful for traveling man.
+* Any traveling man can booking using this app where he will be traveling.
+/>
+
 ## Available Scripts
 
 In the project directory, you can run:
