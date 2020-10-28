@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <
 * This application is a traveling application. It is helpful for traveling man.
 * Any traveling man can booking using this app where he will be traveling.
+* He can see how many hotels there are in that place through this application.
 />
 
 
