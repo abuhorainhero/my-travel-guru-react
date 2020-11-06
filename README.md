@@ -1,4 +1,4 @@
-<<<<<<< README.md
+
 < <img src="./src/Image/Rectangle 1.png"/>
 Travel Guru React Application
 ======= 
@@ -15,6 +15,7 @@ This is a single pase traveling man base Project. This system is awesome, very h
 ## Front End Technology
 <ul>
     <li>React.js</li>
+    <li>Firebase Authentication</li>
     <li>Bootstrap4</li>
     <li>CSS | CSS3</li>
 </ul>
@@ -22,8 +23,5 @@ This is a single pase traveling man base Project. This system is awesome, very h
 ## Hosting Technology
 <ul>
     <li>Firebase</li>
-    <li>Heroku</li>
 </ul>
-=======
 
->>>>>>> THANK YOU
