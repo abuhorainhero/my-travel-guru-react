@@ -10,7 +10,7 @@ This is a single pase traveling man base Project. This system is awesome, very h
 * He can see how many hotels there are in that place through this application.
 * Using this application you can select where he will go.
 <br/>
-<a target="_blank" href="">Live Site</a>
+<a target="_blank" href="https://my-travel-guru-react-app.firebaseapp.com/">Web Site</a>
 
 ## Front End Technology
 <ul>
