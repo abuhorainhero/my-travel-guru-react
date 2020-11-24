@@ -18,8 +18,8 @@ This is a single pase traveling man base Project. This system is awesome, very h
     <li>JavaScript</li>
     <li>Firebase Authentication</li>
     <li>Bootstrap4</li>
-    <li>CSS | CSS3</li>
-    <li>HTML | HTML5</li>
+    <li>CSS3</li>
+    <li>HTML5</li>
 </ul>
 
 ## Hosting Technology

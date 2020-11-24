@@ -16,15 +16,34 @@
     filter: brightness(0.8); */
     
 }
-.backgroundImage-3{
-    background: linear-gradient(rgba(255, 255, 255, 0.163), rgba(255, 255, 255, 0.285)), url('blob:https://imgur.com/f54bbdba-189f-460a-87d8-01f2c469af55');
-    background-position: center;
+.backgroundImage-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/m3kt5db.jpg');
+    background-position: right top;
     background-repeat: no-repeat;
-    height: 300px;
-    width: 200px;
-    background-clip: border-box;
+    background-size: cover;
+    background-origin: border-box;
+    width: 98%;
+    border-radius: 10px;
+    margin: 2px;
 }
-.btn-size{
-    width: 200px;
-    height: 300px;
+.backgroundImage-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/SRiLzZo.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    width: 98%;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.backgroundImage-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/3ilWSeZ.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    width: 98%;
+    border-radius: 10px;
+    margin: 2px;
 }
