@@ -11,48 +11,49 @@ const PlaceDetails = () => {
     return (
         <div className='backgroundImage'>
             <Navbar />
+            <section className="container">
+                <div className="mt-5 row">
 
-            <div className="mt-5 d-flex justify-content-between">
+                    <div className="detail-info mt-5 col-md-6">
+                        <h1>{placeName}</h1>
+                        <p>{place.description}</p>
+                    </div>
 
-                <div className="detail-info ml-5">
-                    <h1>{placeName}</h1>
-                    <p>{place.description}</p>
-                </div>
+                    <div className="form-container  col-md-6">
 
-                <div className="form-container mr-5 ">
+                        <form action="" >
 
-                    <form action="" >
+                            <label htmlFor="">Origin</label>
+                            <input type="text" className="form-control" value='Feni' required />
 
-                        <label htmlFor="">Origin</label>
-                        <input type="text" className="form-control" value='Feni' required />
+                            <label htmlFor="">Destination</label>
+                            <input type="text" className="form-control" value={placeName} required />
 
-                        <label htmlFor="">Destination</label>
-                        <input type="text" className="form-control" value={placeName} required />
+                            <div className="d-flex mt-2">
 
-                        <div className="d-flex mt-2">
+                                <div className="d-flex flex-column">
+                                    <label htmlFor="">Form</label>
+                                    <input type="date" required />
+                                </div>
 
-                            <div className="d-flex flex-column">
-                                <label htmlFor="">Form</label>
-                                <input type="date" required />
+                                <div className="d-flex flex-column ml-5">
+                                    <label htmlFor="">To</label>
+                                    <input type="date" required />
+                                </div>
+
                             </div>
 
-                            <div className="d-flex flex-column ml-5">
-                                <label htmlFor="">To</label>
-                                <input type="date" required />
-                            </div>
+                            <br />
 
-                        </div>
+                            <Link to='/travel-place'>
+                                <input type="submit" value="Start Booking" className="form-control bg-warning" />
+                            </Link>
 
-                        <br />
+                        </form>
 
-                        <Link to='/travel-place'>
-                            <input type="submit" value="Start Booking" className="form-control bg-warning" />
-                        </Link>
-
-                    </form>
-
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
     );
 };

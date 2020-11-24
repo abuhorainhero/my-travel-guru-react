@@ -36,7 +36,7 @@ const Navbar = () => {
                 </Link>
 
                 {
-                    loggedInUser.email ? <Link to="/" className="link-styles mr-5">{loggedInUser.name}</Link> : 
+                    loggedInUser.email ? <> <Link to="/" className="link-styles">{loggedInUser.name}</Link> <button className="btn btn-danger">Log out</button> </>: 
                     <Link to="/login" className=" mr-5"> <button className="btn btn-warning">Login</button></Link>
                 }
 

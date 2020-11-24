@@ -3,7 +3,7 @@ import * as firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from './firebase.config';
 import { PlaceContext } from '../../App';
-import { useHistory, useLocation } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import './Login.css';
 
@@ -173,8 +173,10 @@ const Login = () => {
                             
                             <input className="form-control mb-2 bg-warning" type="submit" value={newUser ? 'Sign Up' : 'Sign In'} />
                             
-                            <input style={{marginLeft: '160px'}} type="checkbox" onChange={() => setNewUser(!newUser)} name="newUser" />
-                            <label htmlFor="newUser">Create New User</label>
+                            {/* <input style={{marginLeft: '160px'}} type="checkbox" onChange={() => setNewUser(!newUser)} name="newUser" />
+                            <label htmlFor="newUser">Create New User</label> */}
+
+                            <Link className="d-flex justify-content-center" onClick={() => setNewUser(!newUser)} to='/login'>{newUser ? 'I have account' : 'Create New User'}</Link>
                         </form>
                     </div>
 

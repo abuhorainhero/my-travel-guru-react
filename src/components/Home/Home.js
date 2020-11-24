@@ -4,9 +4,6 @@ import { PlaceContext } from '../../App';
 import data from '../../FackData/FackDataPlace';
 import Navbar from '../Navbar/Navbar';
 import './Home.css';
-import Cox from '../../Image/Rectangle 1.png';
-import sreemangal from '../../Image/Sreemongol.png';
-import sundorbon from "../../Image/sundorbon.png"
 
 const Home = () => {
     const [place, setPlace] = useContext(PlaceContext);
@@ -18,32 +15,32 @@ const Home = () => {
     return (
         <div className='backgroundImage'>
             <Navbar />
-            <section className="container">
+            <section className="container ">
                 <div className="mt-5 row">
 
-                    <div className="info-container d-flex flex-column align-items-between col-md-5">
-                        <h1>{place.place}</h1>
-                        <p><b> {place.description}</b></p>
+                    <div className="d-flex flex-column align-items-between col-md-5">
+                        <h1 className="mt-5">{place.place}</h1>
+                        <p className="my-5"> {place.description}</p>
                         <Link to={"/place/" + place.place}>
                             <button className="btn btn-warning">Booking</button>
                         </Link>
                     </div>
 
-                    <div className="place-info box-size col-md-2  backgroundImage-1" onClick={() => handlePlace(0)} >
+                    <div className="place-info box-size col-md-2 ml-5 backgroundImage-1" onClick={() => handlePlace(0)} >
                         <div className=' d-flex align-items-end justify-content-center py-4' >
-                            <h2 style={{ marginTop: "250px", textAlign: "center", color: "white" }}>Cox's Bazar</h2>
+                            <h3 style={{ marginTop: "250px", textAlign: "center", color: "white" }}>Cox's Bazar</h3>
                         </div>
                     </div>
 
-                    <div className="place-info box-size col-md-2  backgroundImage-2" onClick={() => handlePlace(1)} style={{ backgroundImage: sreemangal }}>
+                    <div className="place-info box-size col-md-2  backgroundImage-2" onClick={() => handlePlace(1)}>
                         <div className=' d-flex align-items-end justify-content-center py-4'>
-                            <h2 style={{ marginTop: "250px", textAlign: "center", color: "white" }}>sreemangal</h2>
+                            <h3 style={{ marginTop: "250px", textAlign: "center", color: "white" }}>sreemangal</h3>
                         </div>
                     </div>
 
                     <div className="place-info box-size col-md-2 backgroundImage-3" onClick={() => handlePlace(2)}>
                         <div className=' d-flex align-items-end justify-content-center py-4' >
-                            <h2 style={{ marginTop: "250px", textAlign: "center", color: "white" }}>sundorbon</h2>
+                            <h3 style={{ marginTop: "250px", textAlign: "center", color: "white" }}>sundorbon</h3>
                         </div>
                     </div>
 
